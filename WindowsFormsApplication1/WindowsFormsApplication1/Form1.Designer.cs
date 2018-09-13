@@ -36,9 +36,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(32, 28);
+            this.button1.Location = new System.Drawing.Point(44, 147);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(153, 63);
+            this.button1.Size = new System.Drawing.Size(103, 30);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -47,7 +47,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(37, 127);
+            this.checkBox1.Location = new System.Drawing.Point(181, 183);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(80, 16);
             this.checkBox1.TabIndex = 1;
@@ -87,6 +87,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
