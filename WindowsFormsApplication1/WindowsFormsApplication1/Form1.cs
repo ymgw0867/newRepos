@@ -30,7 +30,7 @@ namespace WindowsFormsApplication1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("GitHub!");
+            MessageBox.Show("GitHub!","result");
         }
     }
 }
