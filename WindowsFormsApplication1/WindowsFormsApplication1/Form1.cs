@@ -32,5 +32,10 @@ namespace WindowsFormsApplication1
         {
             MessageBox.Show("GitHub!","result");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("GitHub! NewRepos", "result");
+        }
     }
 }
